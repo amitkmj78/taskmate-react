@@ -48,7 +48,7 @@ const AddTask = ({ taskList, setTaskList, task, setTask }) => {
         <input
           type="text"
           name="assigned"
-          placeholder="Assigned To"
+          placeholder="Assigned Task"
           maxLength={100}
           autoComplete="off"
           value={task.assigned || ""}
