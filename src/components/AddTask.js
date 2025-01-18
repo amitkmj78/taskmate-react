@@ -55,7 +55,7 @@ const AddTask = ({ taskList, setTaskList, task, setTask }) => {
           onChange={(e) => setTask({ ...task, assigned: e.target.value })}
         />
 
-        <button type="submit">Add Task </button>
+        <button type="submit">{task.id ? "Update Task" : "Add Task"} </button>
       </form>
     </section>
   );
